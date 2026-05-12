@@ -1,5 +1,5 @@
 import express from "express"
-import{viewAdmin,verifyAdmin,createAdmin, resetpassword, verifyOtp, resetNewPassword} from "./Controllers/admincontroller.js"
+import{viewAdmin,verifyAdmin,createAdmin, resetpassword, verifyOtp, resetNewPassword} from "./Controllers/adminController.js"
 import {verifyResetToken} from "./MiddleWare/adminMiddleware.js"
 
 const adminRouter=express.Router();
