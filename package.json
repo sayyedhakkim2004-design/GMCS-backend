@@ -12,5 +12,8 @@
     "nodemon": "^3.1.14",
     "sib-api-v3-sdk": "^8.5.0"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+       "start": "node index.mjs"
+     }
 }
